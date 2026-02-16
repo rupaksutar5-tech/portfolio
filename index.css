@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./background\ for\ portfolio.avif");
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(96, 58, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    margin-left: 3%;
+}
+
+.nav-links {
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    margin-right: 10%;
+
+}
+
+li {
+    list-style: none;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.greet h1 {
+    font-size: 4.5vw;
+    color: aqua;
+    font-weight: bold;
+}
+
+.greet p {
+    margin-top: 10px;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+
+.greet {
+    margin-top: 250px;
+    margin-left: 45px;
+}
+
+.about-me {
+    background-color: rgb(214, 209, 2223);
+    align-items: center;
+    text-align: center;
+    /* margin: 1%; */
+    margin-bottom: 0;
+    margin-top: 300px;
+    border: 4px rgb(214, 209, 222) solid;
+}
+
+.about-me h1 {
+    margin: 1%;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    /* border: 4px solid; */
+    width: 800px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.about-text p {
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.about-img img {
+    height: 500px;
+    width: 500px;
+    margin-left: 80px;
+}
+
+.about-img {
+    width: 600px;
+    height: 550px;
+    /* border: 4px solid; */
+}
+
+.About {
+    transition: 1s;
+}
+
+.greet {
+    transition: 1s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* card-1 */
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    /* background-color: grey; */
+    height: 400px;
+}
+
+.one,
+.two {
+    /* border: 4px solid; */
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.img-card img {
+    height: 200px;
+    width: 200px;
+}
+
+.one {
+    margin-left: 150px;
+    /* background-color: rgba(139, 129, 255,0.7); */
+    background-color: rgb(48, 62, 96);
+    /* box-shadow: 0px 2px 10px 2px rgba(212, 209, 221,0.5); */
+    /* color: white; */
+    transition: 0.4s;
+}
+
+.two {
+    margin-right: 150px;
+    /* background-color: rgba(139, 129, 255,0.7); */
+    background-color: rgb(48, 62, 96);
+    /* box-shadow: 0px 2px 10px 2px rgba(212, 209, 221,0.5); */
+    /* color: white; */
+    transition: 0.4s;
+}
+
+.one:hover,
+.two:hover {
+    background-color: rgb(33, 70, 163);
+    box-shadow: 15px 15px 0px 6px rgb(192, 229, 69), 30px 30px 0px 6px rgb(7, 109, 10);
+    cursor: pointer;
+    /* transform: translateY(-15px); */
+    transition: 0.6s;
+}
+
+
+/* card 2 */
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    /* background-color: grey; */
+    height: 400px;
+}
+
+.three,
+.four {
+    /* border: 4px solid; */
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.img-card img {
+    height: 200px;
+    width: 200px;
+}
+
+.three {
+    margin-left: 150px;
+    background-color: rgb(48, 62, 96);
+    /* box-shadow: 0px 2px 10px 2px rgba(212, 209, 221,0.5); */
+    /* color: white; */
+    transition: 0.4s;
+}
+
+.four {
+    margin-right: 150px;
+    background-color: rgb(48, 62, 96);
+    /* box-shadow: 0px 2px 10px 2px rgba(212, 209, 221,0.5); */
+    /* color: white; */
+    transition: 0.4s;
+}
+
+.three:hover,
+.four:hover {
+    background-color: rgb(33, 70, 163);
+    box-shadow: 15px 15px 0px 6px rgb(192, 229, 69), 30px 30px 0px 6px rgb(7, 109, 10);
+    /* transform: translateY(-15px); */
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.skills {
+    background-color: rgb(0, 0, 0);
+    border: 4px rgb(0, 0, 0) solid;
+    /* margin: 1%; */
+}
+
+.skills h1 {
+
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(105, 129, 141);
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1.5%;
+    border-radius: 50px;
+
+}
+
+.skills p {
+    color: white;
+    font-size: 20px;
+}
+
+.college {
+    /* border: 4px white solid; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+}
+
+.nah,
+.imr {
+    /* border: 4px rgb(221, 255, 0) solid; */
+    width: 350px;
+    height: 375px;
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.nah:hover,
+.imr:hover {
+    background-color: rgb(62, 20, 62);
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.nah img,
+.imr img {
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edu {
+    background-color: rgb(187, 200, 186);
+    height: 650px;
+    border: 4px rgb(187, 200, 186) solid;
+}
+
+.para {
+    margin: 10px;
+}
+
+.cl h1 {
+    background-color: rgb(11, 78, 78);
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.cl {
+    background-color: rgb(187, 200, 186);
+
+}
+
+footer {
+    background-color: rgb(51, 33, 81);
+    height: 200px;
+    text-align: center;
+    color: white;
+    border: 4px rgb(51, 33, 81) solid;
+}
+
+.footer-text {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.social {
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
+}
