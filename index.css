@@ -341,3 +341,159 @@ footer {
     justify-content: center;
     gap: 10px;
 }
+
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 20px;
+        margin-right: 5%;
+        font-size: 14px;
+    }
+
+    /* Greeting Section */
+    .greet {
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+
+    .greet h1 {
+        font-size: 32px;
+    }
+
+    .greet p {
+        font-size: 18px;
+    }
+
+    /* About Section */
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .about-img img {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .about-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Skills Section */
+    .card-1,
+    .card-2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 90%;
+        margin: 20px 0;
+        height: auto;
+        padding: 20px;
+    }
+
+    .img-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Education Section */
+    .college {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .nah,
+    .imr {
+        width: 90%;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .edu {
+        height: auto;
+    }
+
+    .cl h1,
+    .skills h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 15px;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
+
+/* Hide hamburger on desktop */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        /* right: ; */
+        width: 100%;
+        background-color: rgb(61, 38, 100);
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
