@@ -395,6 +395,7 @@ footer {
         padding: 10px 22px;   /* smaller padding */
         font-size: 10px;     /* smaller text */
         border-radius: 30px; /* slightly smaller curve */
+        margin-left:20px;
     }
 
     /* About Section */
@@ -522,3 +523,4 @@ footer {
         display: flex;
     }
 }
+
