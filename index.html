@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Document</title>
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -19,8 +19,8 @@
     </div>
     <!-- hamburger -->
     <div class="menu-toggle">
-  <i class="fa-solid fa-bars"></i>
-</div>
+      <i class="fa-solid fa-bars"></i>
+    </div>
 
     <!-- nav links ,home ,about ,skills ,education ,contact -->
     <ul class="nav-links">
@@ -36,7 +36,12 @@
   <section class="greet">
     <h1>Hello,</h1>
     <p>I am Rupak Sutar....</p>
+    
   </section>
+  <div>
+  <a href="./Rupak resume.pdf" class="resume"><button  class="res">RESUME</button></a>
+  
+  </div>
   <section id="about" class="About">
     <div class="about-me">
       <h1>---About---</h1>
@@ -69,7 +74,7 @@
       </div>
       <div class="img-card two">
         <img src="c.jpeg" alt="C logo">
-        <p>C Programming Language <br /><br /> A foundational, high-performance, general-purpose procedural programming
+        <p>C Programming language <br /><br /> A foundational, high-performance, general-purpose procedural programming
           language
           commonly used for system development and embedded applications. </p>
       </div>
@@ -124,15 +129,13 @@
     </div>
   </footer>
   <script>
-  const toggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('.nav-links');
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
 
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('active');
-  });
-</script>
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
-
-
