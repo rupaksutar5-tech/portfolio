@@ -64,7 +64,27 @@ a:hover {
     font-weight: bold;
     color: white;
 }
+.res{
+    color: white;
+    background-color: rgb(15, 69, 69);
+    border: 2px solid rgb(15, 69, 69);
+    display: inline-block;
+    margin: 25px 0 0 45px;
+    padding: 12px 30px;
+    border-radius: 50px;
 
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px 0px rgba(255, 255, 255,0.5);
+}
+.res:hover{
+    background-color: rgb(17, 155, 218);
+    transition: 0.8s;
+}
 .greet {
     margin-top: 250px;
     margin-left: 45px;
@@ -370,6 +390,11 @@ footer {
 
     .greet p {
         font-size: 18px;
+    }
+   .res {
+        padding: 10px 22px;   /* smaller padding */
+        font-size: 10px;     /* smaller text */
+        border-radius: 30px; /* slightly smaller curve */
     }
 
     /* About Section */
